@@ -30,4 +30,8 @@ public class OutputView {
       System.out.println(bookList.get(i).ViewBooking());
     }
   }
+
+  public static void PrintPayment(){
+    System.out.println("\n## 결제를 진행합니다.");
+  }
 }

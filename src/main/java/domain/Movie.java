@@ -55,4 +55,8 @@ public class Movie {
   public String getMovieInfo() {
     return id + " - " + name + ", " + price + "원" + NEW_LINE;
   }
+
+  public int howMuchPay(int bookNum){
+    return this.price*bookNum;
+  }
 }

@@ -25,4 +25,8 @@ public class Book {
     String movieSchedule = this.bookMovie.getOneSchedule(movieSequence);
     return bookMovie.getMovieInfo()+ movieSchedule + "예약인원 : " + this.bookNum + "명";
   }
+
+  public int FinalPayment(){
+    return this.bookMovie.howMuchPay(this.bookNum);
+  }
 }

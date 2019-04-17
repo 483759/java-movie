@@ -70,4 +70,9 @@ public class InputView {
     }
     return false;
   }
+
+  public static int InputUsingPoint(){
+    System.out.println("## 포인트 사용 금액을 입력하세요. 포인트가 없으면 0 입력");
+    return scanner.nextInt();
+  }
 }
